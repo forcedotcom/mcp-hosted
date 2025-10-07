@@ -52,10 +52,12 @@ body:
     attributes:
       label: External Client App identifier (if known)
       placeholder: "ECA name or ID in Salesforce Setup"
-  - type: input
-    id: scopes
-    attributes:
+- type: input
+  id: scopes
+  attributes:
     label: OAuth scopes granted
+    placeholder: "Include MCP-specific scope, if any"
+
   - type: input
     id: org_context
     attributes:
