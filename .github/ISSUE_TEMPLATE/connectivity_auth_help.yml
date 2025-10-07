@@ -55,7 +55,7 @@ body:
   - type: input
     id: scopes
     attributes:
-      label: OAuth scopes granted
+		label: OAuth scopes granted
 		- type: input
     id: org_context
     attributes:
