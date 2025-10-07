@@ -55,7 +55,8 @@ body:
   - type: input
     id: scopes
     attributes:
-    label: OAuth scopes granted
+      label: OAuth scopes granted
+      placeholder: "Include MCP-specific scope, if any"
   - type: input
     id: org_context
     attributes:
