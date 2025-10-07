@@ -16,12 +16,12 @@ body:
       description: Which client are you using?
       options:
         - Agentforce Vibes
-				- Cursor
+        - Cursor
+        - Claude Code
         - Claude Desktop
-				- Claude (Web)
-				- Claude Code
+        - Claude (Web)
         - Windsurf
-        - Continue.dev
+		- Continue.dev
         - VS Code (extension)
         - Google ADK (custom)
         - In-house / custom
