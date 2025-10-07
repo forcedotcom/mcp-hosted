@@ -16,8 +16,8 @@ This feature is currently in open **Beta**, enabling customers to opt-in to test
 
 ## Getting Started
 
-Setup instructions, architecture overviews, and troubleshooting guides are available in the **[Wiki](../../wiki)**.  
-Start there to learn how to:
+Setup instructions and troubleshooting guides are available in the **[Wiki](../../wiki)**. Start there to learn how to:
+
 - Configure your first Hosted MCP Server in Salesforce
 - Connect external MCP clients (Claude, Cursor, etc.)
 - Understand authentication using External Client Apps
