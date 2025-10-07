@@ -19,6 +19,6 @@ Setup instructions and troubleshooting guides are available in the **[Wiki](../.
 
 This feature is currently in open **Beta**, enabling customers to opt-in to test this feature set before the GA release. Please submit feedback through this repo’s **[Issues](../../issues)** to help us refine configuration, authentication, and runtime behavior before GA.
 
-- 🧩 **Connectivity & Authentication Help** – Use the issue form titled **“🔐 Cannot Connect / Authentication Help”** if you encounter trouble connecting your MCP client.
+- 🔐 **Connectivity & Authentication Help** – Use the issue form titled **“🔐 Cannot Connect / Authentication Help”** if you encounter trouble connecting your MCP client.
 - 🐞 **Bug or Documentation Fix** – Use the relevant template under **New Issue**.
-- 💡 **Feature Ideas or Requests** – We welcome thoughtful suggestions through the **Feature Request** form.
+- 💡 **Feature Ideas or Requests** – We welcome thoughtful suggestions through the **Feature Request** form. We want to know what you are trying to do that does not appear to be possible with the current feature set.
