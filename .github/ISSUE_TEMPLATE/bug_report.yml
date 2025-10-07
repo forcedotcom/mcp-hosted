@@ -1,0 +1,62 @@
+
+name: "🐞 Bug Report"
+description: Report a problem or unexpected behavior
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a bug! Please fill out the details below so we can reproduce.
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the bug
+      description: A clear, concise description of what went wrong.
+      placeholder: |
+        Example: The SOQL query tool returns HTTP 500 when a WHERE clause includes a LIKE filter.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Step-by-step instructions (commands, configs, or UI actions).
+      placeholder: |
+        1. Go to Setup > MCP Servers
+        2. Enable server 'Standard SObject Tools'
+        3. Invoke 'soql_query' with payload ...
+        4. Observe error ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      description: Org type (Dev/Sandbox) and client used (e.g., Claude Desktop, custom ADK, etc.).
+      placeholder: "Sandbox sfdc:NA### • Client: Claude Desktop 1.XX"
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs / error output
+      description: Redact sensitive data. Include relevant log lines or stack traces if possible.
+      render: shell
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Screenshots, configs, or notes that might help.

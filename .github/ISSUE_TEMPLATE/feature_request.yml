@@ -1,0 +1,48 @@
+
+name: "💡 Feature Request"
+description: Suggest an idea for improving Salesforce Hosted MCP Servers
+title: "[Feature]: "
+labels: ["enhancement","feature-request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Tell us about the problem you’re trying to solve and what success looks like.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem statement
+      description: What problem are you trying to solve? Who is affected?
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed solution
+      description: Describe the behavior or API you’d like to see.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: How are you doing this today (if at all)?
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area of impact
+      options:
+        - Authentication / External Client Apps
+        - Setup UI
+        - MCP Tools
+        - MCP Prompts
+        - Logging / Observability
+        - Packaging / ISV
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Links, screenshots, or references.
