@@ -1,0 +1,29 @@
+
+name: "📘 Documentation Improvement"
+description: Suggest a clarification or correction to the docs
+title: "[Docs]: "
+labels: ["docs"]
+body:
+  - type: input
+    id: location
+    attributes:
+      label: Affected page or file
+      description: e.g., README, Wiki > Setup Guide, /examples/soql_query
+    validations:
+      required: true
+  - type: textarea
+    id: issue
+    attributes:
+      label: Describe the issue
+      description: What's confusing, missing, or incorrect?
+    validations:
+      required: true
+  - type: textarea
+    id: fix
+    attributes:
+      label: Suggested fix
+      description: How should it be improved?
+  - type: textarea
+    id: extra
+    attributes:
+      label: Additional context or screenshots
