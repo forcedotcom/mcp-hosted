@@ -4,7 +4,7 @@ This repository contains public resources, documentation links, and issues relat
 
 ## Introduction
 
-Salesforce Hosted MCP Servers allow administrators to expose Salesforce logic and assets to external agents such as Claude, Cursor, or Windsurf to interact with Salesforce resources and automation in a secure, governed manner. This capability is part of our broader effort to make Salesforce the trusted hub for **agentic interoperability**—offering customers and partners a paved, secure path to connect their AI systems without relying on unverified free or third-party solutions.
+Salesforce Hosted MCP Servers allow administrators to expose Salesforce logic and assets to external agents such as Claude, Cursor, or Windsurf to interact with Salesforce resources and automation in a secure, governed manner. This capability is part of our broader effort to move Salesforce into the era of **agentic interoperability**—offering customers and partners a paved, secure path to connect their AI systems without relying on unverified free or third-party solutions.
 
 ## Getting Started
 
