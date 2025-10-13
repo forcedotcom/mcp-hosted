@@ -43,27 +43,24 @@ body:
     attributes:
       label: Authentication flow attempted
       options:
-        - Client Credentials (recommended for server-to-server)
         - Authorization Code (browser)
+        - Client Credentials (recommended for server-to-server)
         - Other / Not sure
     validations:
       required: true
   - type: input
-    id: eca_id
-    attributes:
-      label: External Client App identifier (if known)
-      placeholder: "ECA name or ID in Salesforce Setup"
-  - type: input
     id: scopes
     attributes:
       label: OAuth scopes granted
-      placeholder: "Include MCP-specific scope, if any"
-  - type: input
-    id: org_context
+  - type: dropdown
+    id: org_type
     attributes:
-      label: Org context
+      label: Org Type
       description: Dev, Sandbox, or Scratch
-      placeholder: "Dev org • NA###"
+      options:
+        - Sandbox
+        - Scratch Org
+        - Developer Edition org      
   - type: checkboxes
     id: network
     attributes:
