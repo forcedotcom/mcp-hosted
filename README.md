@@ -13,7 +13,8 @@ Setup instructions and troubleshooting guides are available in the **[Wiki](../.
 - Configure your first Hosted MCP Server in Salesforce
 - Connect external MCP clients (Claude, Cursor, etc.)
 - Understand authentication using External Client Apps
-- Review common connection and scope issues
+- Troubleshoot common connection and scope issues
+- Review the [list of available MCP Servers and Tools](https://github.com/forcedotcom/mcp-hosted/wiki/Available-Tools-and-Servers)
 
 ## Submitting Feedback on the Beta
 
