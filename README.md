@@ -51,8 +51,8 @@ Documentation for MCP servers is available in multiple locations, each serving a
 
 At this early stage, we are offering GitHub Issues to track feedback on the MCP server experience:
 
-- **[Suggest a doc improvement](../../issues/new?template=doc-improvement.yml)** — Flag gaps, unclear instructions, or missing examples
-- **[Request a feature](../../issues/new?template=feature-request.yml)** — Suggest new tools, servers, or capabilities
+- **[Suggest a doc improvement](../../issues/new?template=docs_improvement.yml)** — Flag gaps, unclear instructions, or missing examples
+- **[Request a feature](../../issues/new?template=feature_request.yml)** — Suggest new tools, servers, or capabilities
 - **[Ask a question](../../issues/new?template=question.yml)** — Anything else about MCP servers
 
 The intent here is to foster richer discussions with our developer community. For connection problems or potential bugs, please [contact Salesforce Support](https://help.salesforce.com).
