@@ -54,4 +54,4 @@ We use GitHub Issues to track feedback on the MCP server experience:
 - **[Suggest a doc improvement](../../issues/new?template=doc-improvement.yml)** — Flag gaps, unclear instructions, or missing examples
 - **[Ask a question](../../issues/new?template=question.yml)** — Anything else about MCP servers
 
-For connection problems or potential bugs, please [contact Salesforce Support](https://help.salesforce.com/s/support).
+For connection problems or potential bugs, please [contact Salesforce Support](https://help.salesforce.com).
