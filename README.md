@@ -1,25 +1,58 @@
-# Salesforce Hosted MCP Servers (Beta)
+# Salesforce Hosted MCP Servers
 
-This repository contains public resources, documentation links, and issues related to Salesforce’s Hosted MCP Server capability. It supports our ongoing **Beta** program to validate interoperability, performance, and developer experience for external AI agents connecting securely to Salesforce.
+Salesforce's hosted MCP servers allow AI assistants like Claude, ChatGPT, and more connect securely to your Salesforce logic and assets using the [Model Context Protocol](https://modelcontextprotocol.io).
 
-## Introduction
+MCP is an open standard — think of it as USB-C for AI integrations. Any MCP-compatible client can connect to Salesforce through a single, standardized interface with enterprise-grade authentication and governance built in.
 
-Salesforce Hosted MCP Servers allow administrators to expose Salesforce logic and assets to external agents such as Claude, Cursor, or Windsurf to interact with Salesforce resources and automation in a secure, governed manner. This capability is part of our broader effort to move Salesforce into the era of **agentic interoperability**—offering customers and partners a paved, secure path to connect their AI systems without relying on unverified free or third-party solutions.
+## Documentation
 
-## Getting Started
+Documentation for MCP servers is available in multiple locations, each serving a different audience and purpose. We're using a car analogy to explain each of the distinct documentation options. 
 
-Setup instructions and troubleshooting guides are available in the **[Wiki](../../wiki)**. Start there to learn how to:
+<table>
+<tr>
+<td width="260"><img src="documentation/images/getting-started.png" alt="Getting started — learn to drive" width="240"></td>
+<td>
+<h3>Getting Started — Salesforce Help &amp; Training</h3>
+<p><strong><a href="https://help.salesforce.com/s/articleView?id=sf.mcp_servers.htm">Configure MCP Servers in Setup</a></strong></p>
+<p>Enable and disable servers, create custom servers, attach APIs and Flows, manage External Client Apps. Help &amp; Training covers questions about anything you'd do in Salesforce Setup.</p>
+<p><em>Help &amp; Training teaches you the basics of how to drive this new car.</em></p>
+</td>
+</tr>
+<tr>
+<td width="260"><img src="documentation/images/administration.png" alt="Administration — the reference manual" width="240"></td>
+<td>
+<h3>Server Reference and Building Custom Servers — Salesforce Developers</h3>
+<p><strong><a href="https://developer.salesforce.com/docs/platform/hosted-mcp-servers">Developer Guide for Hosted MCP Servers</a></strong></p>
+<p>Browse available servers and tools, build custom MCP servers, and understand authentication for Claude, ChatGPT, et. al. If your question is about which APIs are available or how to authenticate, start here.</p>
+<p><em>Developer docs represent the owner's manual with detailed specs.</em></p>
+</td>
+</tr>
+<tr>
+<td width="260"><img src="documentation/images/advanced-development.png" alt="Advanced development — the mechanic's workshop" width="240"></td>
+<td>
+<h3>Patterns &amp; Community — This Wiki</h3>
+<p><strong><a href="../../wiki">Wiki Home</a></strong></p>
+<p>This repo will become a hub for more advanced development and architecture topics, updated on an ad-hoc basis as the MCP space evolves. Best practices, architecture patterns, client-specific concerns, and more can change on a weekly basis. This wiki provides a channel for all of us to keep each other up-to-date.</p>
+<p><em>The wiki and issues list are a mechanic's forum where people share what works in the real world.</em></p>
+</td>
+</tr>
+</table>
 
-- Configure your first Hosted MCP Server in Salesforce
-- Connect external MCP clients (Claude, Cursor, etc.)
-- Understand authentication using External Client Apps
-- Troubleshoot common connection and scope issues
-- Review the [list of available MCP Servers and Tools](https://github.com/forcedotcom/mcp-hosted/wiki/Available-Tools-and-Servers)
+---
 
-## Submitting Feedback on the Beta
+## Quick Links
 
-This feature is currently in open **Beta**, enabling customers to opt-in to test this feature set before the GA release. Please submit feedback through this repo’s **[Issues](../../issues)** to help us refine configuration, authentication, and runtime behavior before GA.
+- [Wiki Home](../../wiki)
+- [Available Servers and Tools](../../wiki/Available-Tools-and-Servers)
+- [Configure Your MCP Client](../../wiki/Configure-Your-MCP-Client)
+- [FAQ](../../wiki/FAQ)
 
-- 🔐 **Connectivity & Authentication Help** – Use the issue form titled **“🔐 Cannot Connect / Authentication Help”** if you encounter trouble connecting your MCP client.
-- 🐞 **Bug or Documentation Fix** – Use the relevant template under **New Issue**.
-- 💡 **Feature Ideas or Requests** – We welcome thoughtful suggestions through the **Feature Request** form. We want to know what you are trying to do that does not appear to be possible with the current feature set.
+## Have a Question or Idea?
+
+We use GitHub Issues to track feedback on the MCP server experience:
+
+- **[Request a feature](../../issues/new?template=feature-request.yml)** — Suggest new tools, servers, or capabilities
+- **[Suggest a doc improvement](../../issues/new?template=doc-improvement.yml)** — Flag gaps, unclear instructions, or missing examples
+- **[Ask a question](../../issues/new?template=question.yml)** — Anything else about MCP servers
+
+For connection problems or potential bugs, please [contact Salesforce Support](https://help.salesforce.com/s/support).
