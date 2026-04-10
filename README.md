@@ -12,7 +12,7 @@ Documentation for MCP servers is available in multiple locations, each serving a
 <tr>
 <td width="260"><img src="documentation/images/getting-started.png" alt="Getting started — learn to drive" width="240"></td>
 <td>
-<h3>Getting Started — Salesforce Help &amp; Training</h3>
+<h3>Basic Administration — Salesforce Help &amp; Training</h3>
 <p><strong><a href="https://help.salesforce.com/s/articleView?id=sf.mcp_servers.htm">Configure MCP Servers in Setup</a></strong></p>
 <p>Enable and disable servers, create custom servers, attach APIs and Flows, manage External Client Apps. Help &amp; Training covers questions about anything you'd do in Salesforce Setup.</p>
 <p><em>Help &amp; Training teaches you the basics of how to drive this new car.</em></p>
@@ -30,7 +30,7 @@ Documentation for MCP servers is available in multiple locations, each serving a
 <tr>
 <td width="260"><img src="documentation/images/advanced-development.png" alt="Advanced development — the mechanic's workshop" width="240"></td>
 <td>
-<h3>Patterns &amp; Community — This Wiki</h3>
+<h3>Best Practice Patterns &amp; Community — This Wiki</h3>
 <p><strong><a href="../../wiki">Wiki Home</a></strong></p>
 <p>This repo will become a hub for more advanced development and architecture topics, updated on an ad-hoc basis as the MCP space evolves. Best practices, architecture patterns, client-specific concerns, and more can change on a weekly basis. This wiki provides a channel for all of us to keep each other up-to-date.</p>
 <p><em>The wiki and issues list are a mechanic's forum where people share what works in the real world.</em></p>
