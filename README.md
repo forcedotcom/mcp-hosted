@@ -45,7 +45,7 @@ Documentation for MCP servers is available in multiple locations, each serving a
 - [Quick Start Guide](../../wiki/Quick-Start-Guide)
 - [FAQ](../../wiki/FAQ)
 - [Available Servers and Tools](https://developer.salesforce.com/docs/platform/hosted-mcp-servers/references/reference/servers-reference.html)
-- [Configure Your MCP Client](../../wiki/Configure-Your-MCP-Client)
+- [Configure Your MCP Client](../../wiki/Connecting-Your-MCP-Client)
 
 ## Have a Question or Idea?
 
