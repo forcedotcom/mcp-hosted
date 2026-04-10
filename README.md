@@ -1,12 +1,12 @@
 # Salesforce Hosted MCP Servers
 
-Salesforce's hosted MCP servers allow AI assistants like Claude, ChatGPT, and more connect securely to your Salesforce logic and assets using the [Model Context Protocol](https://modelcontextprotocol.io). Hosted MCP servers are now generally available (GA).
+Salesforce’s hosted MCP servers allow AI assistants like Claude, ChatGPT, and more connect securely to your Salesforce logic and assets using the [Model Context Protocol](https://modelcontextprotocol.io). Hosted MCP servers are now generally available (GA).
 
 MCP is an open standard — think of it as USB-C for AI integrations. Any MCP-compatible client can connect to Salesforce through a single, standardized interface with enterprise-grade authentication and governance built in.
 
 ## Documentation
 
-Documentation for MCP servers is available in multiple locations, each serving a different audience and purpose. We're using a car analogy to explain each of the distinct documentation options. 
+Documentation for MCP servers is available in multiple locations, each serving a different audience and purpose. Here, we use a car analogy to explain each of the distinct documentation options. 
 
 <table>
 <tr>
@@ -42,16 +42,19 @@ Documentation for MCP servers is available in multiple locations, each serving a
 
 ## Quick Links
 
+- [Quick Start Guide](../../wiki/Quick-Start-Guide)
 - [FAQ](../../wiki/FAQ)
 - [Available Servers and Tools](https://developer.salesforce.com/docs/platform/hosted-mcp-servers/references/reference/servers-reference.html)
 - [Configure Your MCP Client](../../wiki/Configure-Your-MCP-Client)
 
 ## Have a Question or Idea?
 
-We use GitHub Issues to track feedback on the MCP server experience:
+At this early stage, we are offering GitHub Issues to track feedback on the MCP server experience:
 
-- **[Request a feature](../../issues/new?template=feature-request.yml)** — Suggest new tools, servers, or capabilities
 - **[Suggest a doc improvement](../../issues/new?template=doc-improvement.yml)** — Flag gaps, unclear instructions, or missing examples
+- **[Request a feature](../../issues/new?template=feature-request.yml)** — Suggest new tools, servers, or capabilities
 - **[Ask a question](../../issues/new?template=question.yml)** — Anything else about MCP servers
 
-For connection problems or potential bugs, please [contact Salesforce Support](https://help.salesforce.com).
+The intent here is to foster richer discussions with our developer community. For connection problems or potential bugs, please [contact Salesforce Support](https://help.salesforce.com).
+
+> **Note**: There is no SLA associated with issues in this repo. For support from Salesforce, you must use the official channels. Issues that otherwise would be support cases will be closed.

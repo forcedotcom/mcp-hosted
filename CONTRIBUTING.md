@@ -1,6 +1,6 @@
 # Contributing to Salesforce Hosted MCP Servers
 
-Salesforce's hosted MCP servers are a fully managed service — there's no code to contribute to. This repo exists for documentation, community discussion, and feedback.
+Salesforce’s hosted MCP servers are a fully managed service — there's no code to contribute to. Hence, this repo exists for documentation of best practices, community discussion, and feedback.
 
 ## How to Participate
 
@@ -12,12 +12,12 @@ We use GitHub Issues to have conversations with our developer community about th
 
 Before submitting, please review our [Code of Conduct](CODE_OF_CONDUCT.md).
 
-## What Doesn't Belong Here
+## Appropriate Usage
 
-This repo is not a support channel. There is no SLA associated with issues filed here.
+This repo is not a support channel, so there is no SLA associated with issues filed here.
 
 If you're experiencing a connection problem, authentication error, or other issue that needs a fix, please [contact Salesforce Support](https://help.salesforce.com). Issues that are support requests will be closed.
 
 ## Security
 
-Report security issues to security@salesforce.com.
+Please report any security issue as soon as it is discovered using [this form](https://security.salesforce.com/contact).

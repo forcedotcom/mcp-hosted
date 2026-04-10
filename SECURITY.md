@@ -1,4 +1,3 @@
 ## Security
 
-Please report any security issue to [security@salesforce.com](mailto:security@salesforce.com)
-as soon as it is discovered.
+Please report any security issue as soon as it is discovered using [this form](https://security.salesforce.com/contact).
