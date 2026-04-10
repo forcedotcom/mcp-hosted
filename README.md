@@ -1,6 +1,6 @@
 # Salesforce Hosted MCP Servers
 
-Salesforce's hosted MCP servers allow AI assistants like Claude, ChatGPT, and more connect securely to your Salesforce logic and assets using the [Model Context Protocol](https://modelcontextprotocol.io).
+Salesforce's hosted MCP servers allow AI assistants like Claude, ChatGPT, and more connect securely to your Salesforce logic and assets using the [Model Context Protocol](https://modelcontextprotocol.io). Hosted MCP servers are now generally available (GA).
 
 MCP is an open standard — think of it as USB-C for AI integrations. Any MCP-compatible client can connect to Salesforce through a single, standardized interface with enterprise-grade authentication and governance built in.
 
