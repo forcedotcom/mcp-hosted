@@ -13,7 +13,7 @@ Documentation for MCP servers is available in multiple locations, each serving a
 <td width="260"><img src="documentation/images/getting-started.png" alt="Getting started — learn to drive" width="240"></td>
 <td>
 <h3>Basic Administration — Salesforce Help &amp; Training</h3>
-<p><strong><a href="https://help.salesforce.com/s/articleView?id=sf.mcp_servers.htm">Configure MCP Servers in Setup</a></strong></p>
+<p><strong><a href="https://help.salesforce.com/s/articleView?id=platform.api_catalog_manage_mcp_servers.htm&type=5">Configure MCP Servers in Setup</a></strong></p>
 <p>Enable and disable servers, create custom servers, attach APIs and Flows, manage External Client Apps. Help &amp; Training covers questions about anything you'd do in Salesforce Setup.</p>
 <p><em>Help &amp; Training teaches you the basics of how to drive this new car.</em></p>
 </td>
