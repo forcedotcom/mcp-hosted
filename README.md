@@ -4,7 +4,7 @@ Salesforce’s hosted MCP servers allow AI assistants like Claude, ChatGPT, and 
 
 MCP is an open standard — think of it as USB-C for AI integrations. Any MCP-compatible client can connect to Salesforce through a single, standardized interface with enterprise-grade authentication and governance built in.
 
-## Documentation
+## Documentation    
 
 Documentation for MCP servers is available in multiple locations, each serving a different audience and purpose. Here, we use a car analogy to explain each of the distinct documentation options. 
 
